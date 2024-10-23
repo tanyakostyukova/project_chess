@@ -1,123 +1,115 @@
-* {
-  margin: 0px;
-  padding: 0px;
+*{
+    padding: 0px;
+    margin: 0px;
 }
 
-header{
-  background-image: url(10104780000.jpg);
-  height: 225px;
+#main_fon{
 
+    height: 734px;
+    background-image: url(fon.jpg);
+    background-repeat: no-repeat;
 }
 
-nav{
-  background-color: black;
-  background-repeat:  repeat-x;
-  font-family:  'Roboto', sans-serif;
-  font-size:  120%;
-  line-height: 1.8em;
-  font-style:  normal;
-  color:  black;
-  background-position:  35px;
-  font-weight: bold;
+#pass_title{
+    padding-top: 41px;
+    padding-left: 74px;
 }
 
-nav ul{
-  list-style-type: none;
-  text-align: center;
-  text-indent: 45px;
+.poiret-one-regular {
+    font-family: "Poiret One", sans-serif;
+    font-weight: italic;
+    font-style: normal;
+    letter-spacing: 0.8em;
+    word-spacing: 0.25em;
 }
 
-nav li{
+@font-face {
 
-  margin-top:  0px;
-  margin-right: 10px;
-  margin-left: 80px;
-  margin-bottom:  8px;
-  display: inline; /*задаем способ отображения блочных эл-в, в даном случае в строчку*/
-  height:  auto;
-}
+    font-family: 'Kreadon';
 
-nav li a{
-  text-decoration:  none; /*убираем подчеркивание ссылок*/
-  color:  #8B4513;
-}
-nav li a:hover{
-  color:  #FFF0F5;
-}
+    src: local('Kreadon.ttf')
 
-
-
-#sidebar{/*стиль общий для всего эл-та*/
-  width: 230px;
-  height: 625px;
-  margin-top: 0px;
-  margin-left:  0px;
-  margin-bottom: 0px;
-  border-radius:  5px;
-  background-color:  #e0e0e0;
-  float:  left;
-}
-
-#sidebar ul{
-  list-style-type: none;
-  text-align:  center;
-}
-
-#sidebar li{
-  margin-top: 20px;
-  margin-bottom: 8px;
-}
-
-#sidebar li a{
-  text-decoration:  none;
-  color:  #8B4513;
-}
-
-#sidebar li a:hover{
-  color:  #A9A9A9;
-}
-
-body{
-  font-family:  'Roboto', sans-serif;
-  font-size: 18px;
+    url(/Kreadon.ttf.ttf);
 
 }
 
-#content {
-  width: 1000px;
-  height: 600px;
-  margin-top: 10px;
-  margin-left:  30px;
-  margin-bottom: 15px;
-  border-radius:  5px;
-  float: left;
+.vidanstr1 {
+    font-family: 'Kreadon';
+    padding-top: 20px;
+    padding-left: 145px;
 }
 
-#form {
-  margin-top: 50px;
-  margin-left:  200px;
-  float: left;
+.vidanstr2 {
+    font-family: 'Kreadon';
+    padding-top: 10px;
+    padding-left: 175px;
+    word-spacing: 0.65em;
 }
 
-
-
-.chess{
-  width: 100px;
-  cursor: pointer;
-  margin-left: 0px;
+.vidanstrdata {
+    font-family: 'Kreadon';
+    padding-top: 37px;
+    padding-left: 105px;
+    word-spacing: 0.65em;
+    float: left;
 }
 
+.vidanstrcode {
+    font-family: 'Kreadon';
+    padding-top: 37px;
+    padding-left: 295px;
+    word-spacing: 0.65em;
+}
 
-footer{
- background-color:black;
-                color:#fff;
-                font-family: 'Roboto', sans-serif;
-                font-style: normal;
-                font-size: 80%;
-                padding:5px;
-                width:1885px;
-                height:105px;
-                clear:both;
+.podpis{
+    padding-top: 30px;
+    padding-left: 55px;
+    float: left;
+}
 
+.podpis1{
+    padding-top: 50px;
+    padding-left: 115px;
+}
 
+.passfoto{
+    padding-top: 150px;
+    padding-left: 22px;
+    float: left;
+}
+
+.hfamilia{
+    padding-top: 105px;
+    padding-left: 250px;
+}
+
+.hname{
+    padding-top: 37px;
+    padding-left: 250px;
+}
+
+.hfname{
+    padding-top: 10px;
+    padding-left: 250px;
+}
+
+.hpol{
+    padding-top: 10px;
+    padding-left: 40px;
+    float: left;
+}
+
+.hborn{
+    padding-top: 8px;
+    padding-left: 340px;
+}
+
+.hpborn1{
+    padding-top: 10px;
+    padding-left: 250px;
+    word-spacing: 0.7em;
+}
+.hpborn2 {
+    padding-top: 10px;
+    padding-left: 250px;
 }
