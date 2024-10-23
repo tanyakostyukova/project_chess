@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>шахматы</title>
+  <meta charset='utf-8'>
+  <link rel="stylesheet" href= "style.css">
+
+
+
+  <script language = "JavaScript">
+var bigsize = "600"; //Размер большой картинки
+var smallsize = "100"; //Размер маленькой картинки
+function changeSizeImage(im) {
+  if(im.height == bigsize) im.height = smallsize;
+  else im.height = bigsize;
+}
+</script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;300;400;500;700;900;100;300;400;1,500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <main>
+    <header>
+    </header>
+    <div id='sidebar'>
+      <ul>
+        <li><a href='index.html'>Начало</li>
+        <li><a href='index2.html'>Зачем играть в шахматы</li>
+        <li><a href='index3.html'>Какие есть фигуры</a></li>
+        <li><a href='index4.html'>Шахматный этикет</a></li>
+        <li><a href='..//passport/index.html'>Паспорт</a></li>
+        <li><a href='index5.html'>Алгоритмическая задача</a></li>
+      </ul>
+    </div>
+
+    <div id='content'>
+      <h2>ШАХМАТНЫЙ КЛУБ «СТРАТЕГИЯ»</h2>
+          <div class="chess">
+            <img src="chess.jpg" height="100" onclick="changeSizeImage(this)" target="_blank" />
+          </div>
+      <p>
+       Шахматы появились полторы тысячи лет назад и до сих пор остаются одной из самых узнаваемых игр во всем мире.Когда-то фигуры на клетчатой доске двигали восточные мудрецы, затем в Европе проводили престижные закрытые турниры, а сейчас дети из разных стран ходят в шахматные кружки, пока их родители смотрят фильмы об известных гроссмейстерах. За эти годы я не только убедилась, что шахматы — <a href="https://studsportclubs.ru/shahmaty-jeto-sport/" target = "_blank"> это самый настоящий спорт</a>, но и разглядела в них другие, не менее важные стороны. На этом сайте я расскажу, как разобраться в правилах и принципах игры, где можно оттачивать свое мастерство и для чего вообще стоит познакомиться с шахматами.
+      </p>
+    </div>
+    <div id="form">
+    <h4>регистрация на занятие</h4>
+
+    <form action="https://www.bing.com/search?" target="_blank" method="post">
+    <p>
+   <label for="username">Имя: </label>
+   <input type="text" id="username" /><br />
+   <label for="nick">Фамилия: </label>
+   <input type="text" id="nick" /><br />
+   <label for="email">Эл. почта: </label>
+   <input type="text" id="email" /><br />
+   <label for="pol">Пол: </label>
+   <input type="radio" name="pol" value="male">мужской<br />
+   <input type="radio" name="pol" value="female">женский<br />
+
+  <input type="checkbox" id="age" />
+  <label for="age"> младше 18 лет</label><br />
+  <input type="checkbox" id="age" />
+  <label for="age"> старше 18 лет</label><br />
+
+   <label for="password">пароль: </label>
+   <input type="password" name="Пароль" SIZE=20><br />
+   <input type="submit" value="Отправить"> <input type="reset" value="Отменить"><br />
+    </p>
+    </form>
+    </div>
+
+
+
+    <footer>
+      Вы все еще не умеете играть в шахматы?<br> Приходите к нам!
+    </footer>
+  </main>
+</body>
+</html>

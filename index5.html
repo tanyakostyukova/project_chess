@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вычисление Z</title>
+    <script>
+        function calculateZ() {
+            // Получаем значения X и Y из полей ввода
+            const x = parseFloat(document.getElementById('x').value);
+            const y = parseFloat(document.getElementById('y').value);
+            let z;
+
+            // Проверяем условие и вычисляем Z
+            if (x > y) {
+                z = x * y;
+            } else {
+                z = Math.log(x + y);
+            }
+
+            // Отображаем результат
+            document.getElementById('result').innerText = 'Результат Z: ' + z;
+        }
+    </script>
+</head>
+<body>
+    <h1>Вычисление Z</h1>
+    <label for="x">Введите X:</label>
+    <input type="number" id="x" step="any"><br><br>
+    <label for="y">Введите Y:</label>
+    <input type="number" id="y" step="any"><br><br>
+    <button onclick="calculateZ()">Вычислить Z</button>
+
+    <h2 id="result"></h2>
+</body>
+</html>
